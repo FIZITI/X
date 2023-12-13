@@ -11,9 +11,13 @@
 	p {
 		@apply text-base font-medium;
 	}
-	
+
+	input {
+		@apply outline-0;
+	}
+
 	.card-sidebar {
-		@apply w-full h-[140px] hover:border-[2px] hover:border-gray-400 hover:bg-[rgba(0,0,0,0.07)];
+		@apply w-full h-[140px] hover:border-gray-400 hover:bg-[rgba(0,0,0,0.07)];
 	}
 	
 	.card-h {
@@ -21,7 +25,7 @@
 	}
 	
 	.card-after-button {
-		@apply flex items-center justify-center w-[25px] h-[25px] mr-[15px] rounded-full hover:bg-blue-200;
+		@apply flex items-center justify-center w-[25px] h-[25px] mr-[15px] rounded-full hover:bg-[rgba(0,0,0,0.07)];
 	}
 	
 	.card-body {
@@ -38,5 +42,13 @@
 	
 	.post-content {
 		@apply grid grid-cols-2 gap-1 my-2;
+	}
+
+	.active-menu-link > li {
+		@apply hover:bg-[rgba(0,0,0,0.07)];
+	}
+
+	.active-profile {
+		@apply hover:bg-[rgba(0,0,0,0.07)];
 	}
 }

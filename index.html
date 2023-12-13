@@ -9,43 +9,63 @@
 </head>
 <body>
 <div class="flex m-auto max-w-[1600px] h-full">
-    <header class="flex max-w-[275px] w-full max-h-full">
-      <div class="flex flex-col justify-between items-center w-full max-w-[275px] bg-green-500 h-full fixed overflow-y-auto">
-        <nav class="text-[20px] w-full font-bold">
-          <ul class="">
-            <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4" href="#"><img class="max-w-[21px] max-h-[21px]" src="images/home.png" alt="avatar"><span class="ml-[16px]">Home</span></a></li>
-            <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4" href="#"><img class="max-w-[21px] max-h-[21px]" src="images/home.png" alt="avatar"><span class="ml-[16px]">Explore</span></a></li>
-            <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4" href="#"><img class="max-w-[21px] max-h-[21px]" src="images/home.png" alt="avatar"><span class="ml-[16px]">Notifications</span></a></li>
-            <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4" href="#"><img class="max-w-[21px] max-h-[21px]" src="images/home.png" alt="avatar"><span class="ml-[16px]">Messages</span></a></li>
-            <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4" href="#"><img class="max-w-[21px] max-h-[21px]" src="images/home.png" alt="avatar"><span class="ml-[16px]">Premium</span></a></li>
-            <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4" href="#"><img class="max-w-[21px] max-h-[21px]" src="images/home.png" alt="avatar"><span class="ml-[16px]">Profile</span></a></li>
-          </ul>
-        </nav>
-        <a class="w-full h-[60px] my-[12px]" href="#">
-          <div class="flex items-center w-full h-full px-6">
-            <img class="w-[44px] h-[44px] bg-black rounded-full" src="images/home.png" alt="avatar">
-            <div class="flex items-center justify-between ml-6 w-full text-[18px] font-bold">
-              <span>FIZITI</span>
-              <button class="card-after-button"><img class="max-w-[20px]" src="images//3dot.png" alt="after"></button>
-            </div>
+  <header class="flex max-w-[275px] w-full max-h-full">
+    <div
+      class="flex flex-col justify-between items-center w-full max-w-[275px] bg-green-500 h-full fixed overflow-y-auto">
+      <nav class="text-[20px] w-full font-bold">
+        <ul class="active-menu-link">
+          <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4"
+                                                           href="#"><img class="max-w-[21px] max-h-[21px]"
+                                                                         src="images/home.png" alt="avatar"><span
+            class="ml-[16px]">Home</span></a></li>
+          <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4"
+                                                           href="#"><img class="max-w-[21px] max-h-[21px]"
+                                                                         src="images/home.png" alt="avatar"><span
+            class="ml-[16px]">Explore</span></a></li>
+          <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4"
+                                                           href="#"><img class="max-w-[21px] max-h-[21px]"
+                                                                         src="images/home.png" alt="avatar"><span
+            class="ml-[16px]">Notifications</span></a></li>
+          <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4"
+                                                           href="#"><img class="max-w-[21px] max-h-[21px]"
+                                                                         src="images/home.png" alt="avatar"><span
+            class="ml-[16px]">Messages</span></a></li>
+          <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4"
+                                                           href="#"><img class="max-w-[21px] max-h-[21px]"
+                                                                         src="images/home.png" alt="avatar"><span
+            class="ml-[16px]">Premium</span></a></li>
+          <li class="flex items-center w-full h-[60px]"><a class="flex items-center flex-row w-full h-full pl-4"
+                                                           href="#"><img class="max-w-[21px] max-h-[21px]"
+                                                                         src="images/home.png" alt="avatar"><span
+            class="ml-[16px]">Profile</span></a></li>
+        </ul>
+      </nav>
+      <a class="w-full h-[60px] my-[12px] active-profile" href="#">
+        <div class="flex items-center w-full h-full px-6">
+          <div class="rounded-full max-w-[44px] max-h-[44px]"><img class="max-w-[24px] max-h-[24px]"
+                                                                   src="images/avatar.png" alt="avatar"></div>
+          <div class="flex items-center justify-between ml-6 w-full text-[18px] font-bold">
+            <span>FIZITI</span>
+            <button class="card-after-button"><img class="max-w-[20px]" src="images/3dot.png" alt="after"></button>
           </div>
-        </a>
-      </div>
-    </header>
+        </div>
+      </a>
+    </div>
+  </header>
   <main class="flex justify-between w-full m-auto">
     <div class="w-full min-w-[550px] h-full mr-10 bg-orange-500">
-      <form class="flex justify-center pt-3 max-w-[650px] m-auto" action="#"><input class="rounded-l-xl pl-2 w-full h-[32px]" type="text"> <button>☺</button></form>
       <div class="m-auto max-w-[650px] mt-[44px]">
         <div class="flex items-center w-full h-full">
-          <a class="block w-[44px] h-[44px]" href="#"><img class="max-w-[44px] h-[44px] bg-black rounded-full" src="images/home.png" alt="avatar"></a>
-          <div class="flex items-center justify-between ml-6 w-full">
-            <div class="flex items-center posts-main-text">
+          <a class="flex justify-center items-center max-w-[44px] min-w-[44px] h-[44px] rounded-full" href="#"><img
+            class="max-w-[28px] max-h-[28px]" src="images/avatar.png" alt="avatar"></a>
+          <div class="flex items-center justify-between ml-[6px] w-full">
+            <a class="flex items-center posts-main-text" href="#">
               <span class="text-[18px] font-bold text-black">FIZITI</span>
               <p class="ml-[10px]">@fiziti1329</p>
               <span class="mx-[5px] pb-[9px]">.</span>
               <p>2 days</p>
-            </div>
-            <button class="card-after-button m-0"><img class="max-w-[20px]" src="images//3dot.png" alt="after"></button>
+            </a>
+            <button class="card-after-button m-0"><img class="max-w-[20px]" src="images/3dot.png" alt="after"></button>
           </div>
         </div>
         <div>
@@ -56,43 +76,52 @@
             <img class="rounded-br-3xl" src="images/cybertrack.jpg" alt="post photo">
           </a>
           <div class="flex justify-between px-10 my-[5px]">
-            <div class="flex justify-between max-w-[120px] w-full">
-              <button><img class="max-w-[25px]" src="images/like.jpg" alt="лайк"></button>
-              <button><img class="max-w-[25px]" src="images/comment.jpg" alt="комментарий"></button>
+            <div class="w-full">
+              <button><img class="max-w-[25px]" src="images/save.png" alt="комментарий"></button>
+              <button><img class="max-w-[25px] ml-[21px]" src="images/coments.png" alt="комментарий"></button>
             </div>
             <button><img class="max-w-[25px]" src="images/repost.png" alt="репост"></button>
+            <button><img class="max-w-[25px] ml-[21px]" src="images/like.png" alt="лайк"></button>
           </div>
         </div>
       </div>
       <div class="m-auto max-w-[650px] mt-[44px]">
         <div class="flex items-center w-full h-full">
-          <a class="block w-[44px] h-[44px]" href="#"><img class="max-w-[44px] h-[44px] bg-black rounded-full" src="images/home.png" alt="avatar"></a>
-          <div class="flex items-center justify-between ml-6 w-full">
-            <div class="flex items-center posts-main-text">
+          <a class="flex justify-center items-center max-w-[44px] min-w-[44px] h-[44px] rounded-full" href="#"><img
+            class="max-w-[28px] max-h-[28px]" src="images/avatar.png" alt="avatar"></a>
+          <div class="flex items-center justify-between ml-[6px] w-full">
+            <a class="flex items-center posts-main-text" href="#">
               <span class="text-[18px] font-bold text-black">FIZITI</span>
               <p class="ml-[10px]">@fiziti1329</p>
               <span class="mx-[5px] pb-[9px]">.</span>
               <p>2 days</p>
-            </div>
-            <button class="card-after-button m-0"><img class="max-w-[20px]" src="images//3dot.png" alt="after"></button>
+            </a>
+            <button class="card-after-button m-0"><img class="max-w-[20px]" src="images/3dot.png" alt="after"></button>
           </div>
         </div>
-      <div>
-        <a class="post-content grid grid-cols-1 rounded-none" href="#">
-          <img class="rounded-3xl" src="images/cybertrack.jpg" alt="post photo">
-        </a>
-        <div class="flex justify-between px-10 my-[5px]">
-          <div class="flex justify-between max-w-[120px] w-full">
-            <button><img class="max-w-[25px]" src="images/like.jpg" alt="лайк"></button>
-            <button><img class="max-w-[25px]" src="images/comment.jpg" alt="комментарий"></button>
-          </div>
+        <div>
+          <a class="post-content grid grid-cols-1 rounded-none" href="#">
+            <img class="rounded-3xl" src="images/cybertrack.jpg" alt="post photo">
+          </a>
+          <div class="flex justify-between px-10 my-[5px]">
+            <div class="w-full">
+              <button><img class="max-w-[25px]" src="images/save.png" alt="комментарий"></button>
+              <button><img class="max-w-[25px] ml-[21px]" src="images/coments.png" alt="комментарий"></button>
+            </div>
             <button><img class="max-w-[25px]" src="images/repost.png" alt="репост"></button>
+            <button><img class="max-w-[25px] ml-[21px]" src="images/like.png" alt="лайк"></button>
           </div>
         </div>
       </div>
     </div>
     <aside class="flex justify-end max-w-[400px] w-full max-h-full">
       <section class="max-w-[400px] w-full bg-green-500 h-full fixed overflow-y-auto">
+        <form class="flex justify-center items-center pt-3 max-w-[650px] m-auto" action="#">
+          <input class="rounded-l-xl pl-2 w-full h-[44px] bg-slate-200" type="text" placeholder="Поиск">
+          <button class="flex justify-center items-center w-[78px] bg-slate-300 h-[44px] rounded-r-xl">
+            <img class="max-w-[21px]" src="images/search.png" alt="поиск">
+          </button>
+        </form>
         <div class="flex flex-col items-center w-full mt-[20px] rounded-t-3xl bg-slate-200">
           <h2 class="pt-[10px]">Trends for you</h2>
           <a class="card-sidebar" href="#">
@@ -102,27 +131,30 @@
                 <p>Lorem ipsum dolor sit amet consectetur, harum eaque odit tempora!</p>
                 <span>lorem lorem</span>
               </div>
-              <button class="card-after-button"><img class="max-w-[20px]" src="images/3dot.png" alt="after button"></button>
+              <button class="card-after-button"><img class="max-w-[20px]" src="images/3dot.png" alt="after button">
+              </button>
             </div>
           </a>
-            <a class="card-sidebar" href="#">
+          <a class="card-sidebar" href="#">
             <h3 class="card-h">Premium</h3>
             <div class="card-body">
               <div class="card-body-text">
                 <p>Lorem ipsum dolor sit amet consectetur, harum eaque odit tempora!</p>
                 <span>lorem lorem</span>
               </div>
-              <button class="card-after-button"><img class="max-w-[20px]" src="images/3dot.png" alt="after button"></button>
+              <button class="card-after-button"><img class="max-w-[20px]" src="images/3dot.png" alt="after button">
+              </button>
             </div>
           </a>
-            <a class="card-sidebar" href="#">
+          <a class="card-sidebar" href="#">
             <h3 class="card-h">Premium</h3>
             <div class="card-body">
               <div class="card-body-text">
                 <p>Lorem ipsum dolor sit amet consectetur, harum eaque odit tempora!</p>
                 <span>lorem lorem</span>
               </div>
-              <button class="card-after-button"><img class="max-w-[20px]" src="images/3dot.png" alt="after button"></button>
+              <button class="card-after-button"><img class="max-w-[20px]" src="images/3dot.png" alt="after button">
+              </button>
             </div>
           </a>
         </div>

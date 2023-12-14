@@ -17,7 +17,7 @@
 	}
 
 	.card-sidebar {
-		@apply w-full h-[140px] hover:border-gray-400 hover:bg-[rgba(0,0,0,0.07)];
+		@apply w-full h-[154px] hover:border-gray-400 hover:bg-[rgba(0,0,0,0.07)];
 	}
 	
 	.card-h {

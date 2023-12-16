@@ -16,10 +16,22 @@
 		@apply outline-0;
 	}
 
+	body::-webkit-scrollbar {
+		@apply w-[8px] bg-slate-200;
+	}
+
+	body::-webkit-scrollbar-thumb {
+		@apply rounded-t-3xl rounded-b-3xl bg-slate-400;
+	}
+
 	.card-sidebar {
 		@apply w-full h-[154px] hover:border-gray-400 hover:bg-[rgba(0,0,0,0.07)];
 	}
-	
+
+	.sidebar-content::-webkit-scrollbar {
+		@apply w-0;
+	}
+
 	.card-h {
 		@apply mt-[10px] ml-[20px] text-xl font-medium;
 	}

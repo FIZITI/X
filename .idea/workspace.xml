@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20437f3e-6074-4af9-9d95-80112534c17e" name="Changes" comment="aside">
-      <change afterPath="$PROJECT_DIR$/images/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/search.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/input.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/input.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/output.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/output.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/comment.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/like.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/repost.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +39,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.CSS",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,7 +71,8 @@
       <workItem from="1702474193403" duration="95000" />
       <workItem from="1702474610685" duration="101000" />
       <workItem from="1702474726955" duration="42000" />
-      <workItem from="1702474888803" duration="4135000" />
+      <workItem from="1702474888803" duration="4472000" />
+      <workItem from="1702560113146" duration="5332000" />
     </task>
     <task id="LOCAL-00001" summary="aside">
       <created>1701356811072</created>
@@ -103,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702474641368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aside">
+      <created>1702479351111</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702479351112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
